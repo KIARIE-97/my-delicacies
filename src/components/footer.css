@@ -1,0 +1,23 @@
+.footer__navs{
+    background-color: rgba(189, 29, 29, 0.25);
+}
+
+.socialmedia{
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 20px;
+    
+}
+h3{
+font-family: 'Dancing Script', cursive;
+color: coral;
+padding:10px
+}
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: black;
+}

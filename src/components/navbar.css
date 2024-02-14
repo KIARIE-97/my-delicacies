@@ -1,0 +1,12 @@
+.parentNav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    /* background-color: rgba(199, 79, 19, 0.25); */
+}
+/* .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */

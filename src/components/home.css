@@ -1,0 +1,99 @@
+.homeNav{
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+.home-desc{
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+    
+    
+}
+.home-desc h1{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    color: coral;
+}
+.home-desc p{
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    /* color: chocolate; */
+}
+.home-desc p span{
+    font-weight: 250;
+    color: chocolate;
+}
+.home-img{
+    width: 50%;
+    align-items: center;
+
+}
+
+.home-img img{
+    width: 600px;
+    
+}
+
+@media screen  and (max-width: 1000px){
+    .home-img img{
+        width: 450px;
+        
+    }
+    .home-desc h1{
+        font-size: 50px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 200;
+        color: coral;
+    }
+}
+/* @media screen  and (max-width: 750px){
+    .homeNav{
+        width: fit-content;
+        flex-wrap: wrap;
+    } */
+
+/* } */
+@media screen  and (max-width: 750px){
+    .homeNav{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .home-desc{
+        width: 100%;
+    }
+
+    .home-img{
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    .home-img img{
+        width: 100%;
+        
+    }
+}
+@media screen  and (max-width: 700px){
+    .homeNav{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .home-desc{
+        width: 100%;
+    }
+
+    .home-img{
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    .home-img img{
+        width: 100%;
+        
+    }
+
+
+    
+}
